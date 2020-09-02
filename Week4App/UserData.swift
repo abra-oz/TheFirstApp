@@ -7,7 +7,7 @@ import Combine
 final class UserData : ObservableObject {
     // Published means any time this value changes its updated everywhere.
     @Published var counter: Int = 0
-    @Published var userInput: String = "zcxzcx" {
+    @Published var userInput: String = "" {
         willSet(newValue){
             print(newValue)
         }
