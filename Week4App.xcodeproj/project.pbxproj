@@ -15,6 +15,8 @@
 		3F2FF5B225000F39004DD0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FF5B025000F39004DD0D1 /* LaunchScreen.storyboard */; };
 		3F2FF5BD25000F3A004DD0D1 /* Week4AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FF5BC25000F3A004DD0D1 /* Week4AppTests.swift */; };
 		3F2FF5C825000F3A004DD0D1 /* Week4AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FF5C725000F3A004DD0D1 /* Week4AppUITests.swift */; };
+		3F2FF5D625001192004DD0D1 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FF5D525001192004DD0D1 /* UserData.swift */; };
+		3F2FF5D825001A60004DD0D1 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FF5D725001A60004DD0D1 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3F2FF5C325000F3A004DD0D1 /* Week4AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week4AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2FF5C725000F3A004DD0D1 /* Week4AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4AppUITests.swift; sourceTree = "<group>"; };
 		3F2FF5C925000F3A004DD0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2FF5D525001192004DD0D1 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		3F2FF5D725001A60004DD0D1 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				3F2FF5A525000F36004DD0D1 /* AppDelegate.swift */,
 				3F2FF5A725000F36004DD0D1 /* SceneDelegate.swift */,
 				3F2FF5A925000F36004DD0D1 /* ContentView.swift */,
+				3F2FF5D725001A60004DD0D1 /* ListView.swift */,
+				3F2FF5D525001192004DD0D1 /* UserData.swift */,
 				3F2FF5AB25000F39004DD0D1 /* Assets.xcassets */,
 				3F2FF5B025000F39004DD0D1 /* LaunchScreen.storyboard */,
 				3F2FF5B325000F39004DD0D1 /* Info.plist */,
@@ -269,6 +275,8 @@
 			files = (
 				3F2FF5A625000F36004DD0D1 /* AppDelegate.swift in Sources */,
 				3F2FF5A825000F36004DD0D1 /* SceneDelegate.swift in Sources */,
+				3F2FF5D825001A60004DD0D1 /* ListView.swift in Sources */,
+				3F2FF5D625001192004DD0D1 /* UserData.swift in Sources */,
 				3F2FF5AA25000F36004DD0D1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,8 +444,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Week4App/Preview Content\"";
+				DEVELOPMENT_TEAM = J7S527RBTL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Week4App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,8 +465,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Week4App/Preview Content\"";
+				DEVELOPMENT_TEAM = J7S527RBTL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Week4App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
